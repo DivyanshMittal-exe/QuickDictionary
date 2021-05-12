@@ -4,6 +4,7 @@ Someimes when reading a good book, you come accross a word whose meaning, you mi
 
 ## Installation guide 
 1. Install python 
+2. Install autohotkey
 2. Install PyDictionary and notion via the comands `pip install notion` and `pip install PyDictionary`
 3. Clone the repo
 4. Create a new table page in Notion and copy its url and paste it in the code. The instructions given in the comments
@@ -16,4 +17,8 @@ Someimes when reading a good book, you come accross a word whose meaning, you mi
     5. Paste this in the required location inside the code [Comments will guide you further]
 
 ## Using the code
-Fortunately using this is much much simpler. Simply select the word whos meaning you want to know and press  <kbd >Ctrl</kbd><kbd >Q</kbd> [Not yet implemented]. A popup will open with the meaning. Select the definations whom you wanna save (Upto 3) and press the Save button. If no meaning is ound the application simply returns no value found
+Fortunately using this is much much simpler.
+
+Run the autohotkey script by doubleclicking it. Simply select the word whose meaning you want to know and press  <kbd >Ctrl</kbd><kbd >Q</kbd> . A popup will open with the meaning. Select the definations whom you wanna save (Upto 3) and press the Save button. If no meaning is ound the application simply returns no value found.
+
+Once you restart your computer, you will have to again activate the script, but a simple workaround is to place the shortcut of the script in ` C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup  ` directory.
