@@ -21,4 +21,4 @@ Fortunately using this is much much simpler.
 
 Run the autohotkey script by doubleclicking it. Simply select the word whose meaning you want to know and press  <kbd >Ctrl</kbd><kbd >Q</kbd> . A popup will open with the meaning. Select the definations whom you wanna save (Upto 3) and press the Save button. If no meaning is ound the application simply returns no value found.
 
-Once you restart your computer, you will have to again activate the script, but a simple workaround is to place the shortcut of the script in ` C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup  ` directory.
+Once you restart your computer, you will have to again activate the script, but a simple workaround is to place the shortcut of the script in ` C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup  ` directory. [Press <kbd >Win</kbd><kbd >R</kbd> and enter `shell:startup` to open this directory deirectly]
